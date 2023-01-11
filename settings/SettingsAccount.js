@@ -15,7 +15,9 @@ export default function SettingsAccount() {
         setActiveSection(section)
     }
 
-
+    // Here there is a baisc concept of state being used you have the base state which is the base page that is shown with all the options 
+    // and once a different section is pressed the state will be changed to what ever the state is when clicked on and will hide the base state and only show the stuff that is suppose to be shown with the state that was click on 
+    // this is important because this is how i modeled most of the components that had different sections espcially that had sections that are in the same space in the page 
     return (
         <div>
             <div style={{ display: activeSection === 'base' ? 'block' : 'none' }}>

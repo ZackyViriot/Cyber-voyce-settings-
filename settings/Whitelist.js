@@ -4,6 +4,7 @@ import yoshi from '../../assets/Yoshi.webp'
 
 
 export default function Whitelist() {
+    // simular to black list becuase there is no backend right now this is just a basic dummy data scheme built by html and css 
     return (
         <div>
             <div>

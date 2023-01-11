@@ -10,7 +10,8 @@ export default function SettingsSecurity() {
         setActiveSection(section)
     }
 
-
+    // This is the secruity tab which also has a base state which shows the selct from the menu below then once pressed on the 2 factor authentication the state will be change and the two factor section will be displayed 
+    
     return (
         <div>
             <div className='security-setting-content'>
