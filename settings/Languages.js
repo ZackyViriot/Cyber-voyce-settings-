@@ -5,6 +5,7 @@ import SelectLangButton from '../buttons/SelectLangButton'
 
 
 export default function Langauges() {
+    // Basic language component to select the lang 
     return (
         <div>
             <div className='settings-language-content-border'>

@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 export default function SettingsHelpCenter() {
     const [activeSection, setActiveSection] = useState('base')
-
+    // This is simular to some of the other components you have a base state which is the default page for help center and one you click on faq the state will change to faq and will hide the base state and display the change state 
     const changeActiveSection = section => {
         setActiveSection(section)
     }

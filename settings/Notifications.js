@@ -4,6 +4,7 @@ import EmailOrPushNotificationsButton from '../buttons/EmailOrPushNotificationBu
 
 
 export default function Notifications(){
+    // basic html and css for the notifications page with an imported button for email or push notifications which you will map to the backend 
     return(
         <div className = 'settings-notifications-content-border'>
             <div className = 'settings-notifications-content'>

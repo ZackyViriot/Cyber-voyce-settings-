@@ -3,6 +3,8 @@ import React from 'react'
 
 
 export default function SettingsAccountInformation() {
+
+    // this has basic layout for account information
     return (
         <div>
             <div className='account-user-phone-email'>
