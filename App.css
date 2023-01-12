@@ -1333,7 +1333,7 @@ input:checked + .RegisterSlider:before{
 
 
 
-/* This is going to be for the settings section */
+/* This is going to be for the settings section  from everything below*/
 
 .settings-container{
   flex: 0.5;
@@ -1731,4 +1731,51 @@ input:checked + .RegisterSlider:before{
 }
 .security-setting-content{
   border-bottom: 1px solid gray;
+}
+
+
+/* This is going to be for the help center section */
+.settings-help-center{
+  border-bottom: 1px solid gray;
+}
+
+.settings-help-center-header{
+  margin-left:20px;
+}
+
+.settings-help-center-input{
+  display:flex;
+  background-color: #222222;
+  height: 80px;
+  width: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  /* If you remove this it will be black so you will not which one you selected  */
+  color: white;
+  outline:none; 
+}
+
+.settings-help-center-input-save{
+  display: flex;
+  margin-left: 650px;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(to right, magenta,purple);
+  outline:none;
+}
+
+
+.settings-help-center-main{
+  border-top: 1px solid gray;
+}
+.settings-help-center-main-h2{
+  margin-left: 20px;
+}
+
+.settings-faq-content{
+  margin-left: 20px;
 }

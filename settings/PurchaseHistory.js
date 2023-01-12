@@ -10,6 +10,11 @@ import Paper from '@mui/material/Paper';
 import { color, fontWeight, height } from '@mui/system';
 ;
 
+
+// This was used by material ui basic chart with data which will be replaced once a backend is added
+
+
+
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     background: '#191919',

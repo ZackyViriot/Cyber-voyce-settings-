@@ -7,7 +7,8 @@ import React from 'react'
 export default function SettingsChangePassword() {
     return (
         <div>
-            {/* This is going to be the old new and confirm password and well as the last one being the save button */}
+            {/* This is going to be the old new and confirm password and well as the last one being the save buttonn all that it is is a bunch of input tags for the password */}
+        
             <div className='change-password'>
                 <input className='account-setting-change-password' type='text' placeholder='Old Password'></input>
                 <input className='account-setting-change-password' type='text' placeholder='New Password'></input>

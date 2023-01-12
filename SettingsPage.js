@@ -10,18 +10,18 @@ import Langauges from './settings/Languages'
 import Notifications from './settings/Notifications'
 import Accessibility from './settings/Accessibility'
 import SettingsSecurity from './settings/Security'
+import SettingsHelpCenter from './settings/HelpCenter'
 
 
 
 
 
 export default function SettingsPage() {
-    // Zacky Viriot 
-    // To get each section in the setting page to render I provided a STATE which will when a section will be clicked on will be replaced with that section in order for only one section to be shown at the time when you click on it.
-
-    // We are going to give it a default state of your account because that will be the first section there so it would only make sense that it is the default  nv 
+    // This is going to set a state and default state which will be the  your account because when you click on the settings that should be the first thing that is shown
     const [activeSection, setActiveSection] = useState('yourAccount')
 
+
+    //This is a function to change the state which will be used when click on something which will change state and also change what is shown based on what the state is changed too 
     const changeActiveSection = section => {
         setActiveSection(section)
     }
@@ -39,6 +39,7 @@ export default function SettingsPage() {
                 </div>
                 <div className='settings-pages'>
                     <div className='settings-pagesBtn'>
+                        {/* Here is the first example and every other section is the same once click on it will change the state to that state and you will check to see if that state is shown and if it is you will display the shown state and nothing else */}
                         <h3 onClick={() => changeActiveSection('yourAccount')}>
                             Your Account
                         </h3>
@@ -78,6 +79,7 @@ export default function SettingsPage() {
             <div>
                 <div className='settings-content'>
                     {/* Now this is where things will go in each section */}
+                    {/* here is the first example and everything follows the same pattern checks to see if the active section is equal to the correponding state for that section if so it will show block which is the component if not it will not  */}
                     <div style={{ display: activeSection === 'yourAccount' ? 'block' : 'none' }}>
                         <SettingsAccount/>
                     </div>
@@ -97,7 +99,7 @@ export default function SettingsPage() {
                         <SettingsSecurity/>
                     </div>
                     <div style={{ display: activeSection === 'helpCenter' ? 'block' : 'none' }}>
-                        this is going to be the help center
+                        <SettingsHelpCenter/>
                     </div>
                 </div>
             </div>

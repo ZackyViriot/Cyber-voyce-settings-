@@ -1,12 +1,16 @@
 import React from 'react'
+
+//IMPORTS 
 import DisableEnableButton from '../buttons/DisableEnableButton'
 import SelectLangButton from '../buttons/SelectLangButton'
 
 
 
 export default function Langauges() {
+    // Basic language component to select the language 
     return (
         <div>
+            {/* Language Component that will let you selcet the langauge that you want */}
             <div className='settings-language-content-border'>
                 <div className='settings-language-content'>
                     <h2>Langauges</h2>

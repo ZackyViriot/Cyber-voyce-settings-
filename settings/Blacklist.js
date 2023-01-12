@@ -1,12 +1,15 @@
 import React from 'react'
-
+//imports 
 import yoshi from '../../assets/Yoshi.webp'
 
 
 export default function Blacklist() {
+
+    // this is a example Blacklist page 
     return (
         <div>
             <div>
+                {/* Here you have an example of a blacklist profile component which will be later changed with the backend and that is where it will recieve the data */}
                 <div className='settings-blacklist-paragraph'>
                     <p style={{ color: '#484848' }}>see and manage users in the blacklist</p>
                 </div>

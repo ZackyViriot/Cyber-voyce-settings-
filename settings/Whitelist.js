@@ -1,9 +1,10 @@
 import React from 'react'
-
+//imports 
 import yoshi from '../../assets/Yoshi.webp'
 
 
 export default function Whitelist() {
+    // very much simular to the blacklist page this is another example of dummy data which will be replaced once connected to the backend 
     return (
         <div>
             <div>

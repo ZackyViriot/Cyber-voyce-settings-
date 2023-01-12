@@ -3,6 +3,7 @@ import React from 'react'
 
 
 export default function SettingsDisplayMedia() {
+    // This sections is going to be the display media section what youb will see below is basic options made simple with input tags and buttons 
     return (
         <div>
             <div className='display-media-content-you-see'>

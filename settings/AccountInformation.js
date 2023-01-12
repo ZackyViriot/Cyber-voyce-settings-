@@ -3,8 +3,13 @@ import React from 'react'
 
 
 export default function SettingsAccountInformation() {
+
+    // this has basic layout for account information
     return (
         <div>
+            {/* here you just have dummy data which will be filled with the backend later on but for the time being this is account information */}
+
+
             <div className='account-user-phone-email'>
                 <h3>User Name</h3>
                 <h5>@thedogman</h5>

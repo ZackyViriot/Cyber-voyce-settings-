@@ -2,7 +2,7 @@ import React , {useState} from 'react'
 import styled from 'styled-components'
 
 
-
+// This is the css for the button that way in app.css you don't have multiple and it is more clear
 
 const StyledButton = styled.button`
     width:200px;
@@ -17,6 +17,7 @@ const StyledButton = styled.button`
 
 
 export default function SelectLangButton(){
+    //once again you will set a state and that will be used to toggle between select langaugae and english 
     const [isActive,setIsActive] = useState(false)
 
 
